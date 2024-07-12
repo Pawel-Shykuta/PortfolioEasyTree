@@ -1,0 +1,905 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+
+header{              /* Header*/
+  
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+header .main_con {
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header .main_con  img{
+    padding-top: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+
+.main_con a{
+    display: flex;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.links{
+    list-style-type: none;
+    padding-bottom: 0;
+    margin-right: 50px;
+}
+
+.links li{
+    display: inline-block;
+    
+}
+
+.links li a{
+    opacity: .7;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+
+.links li a:hover{
+    
+    opacity: 1;
+    color: rgb(16, 165, 165);
+}
+
+
+.under_header{  /* Under_Header*/
+   
+    background-image: url(Foto/1.jpg);
+    height: 620px;
+    background-repeat:no-repeat ;
+    width: 100%;
+    background-size: cover;
+}
+
+.blu_block{
+    width: 50%;
+    height: 620px;
+    background-color: rgba(0, 0, 255, 0.486);
+    color: white;
+   
+}
+
+.blu_block h1{
+    margin-left: 40%;
+    align-items: end;
+    padding-top: 30%;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.blu_block p{
+    margin-top: -20px;
+    line-height: 25px;
+    margin-left: 40%;
+    font-size: 25px;
+}
+
+
+section .main{ /* Main content*/
+    width: 100%;
+    height: auto;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+
+.right{            /* Right*/
+
+    width: 50%;
+    color: rgb(16, 125, 133);
+    justify-content: left;
+    padding: 10px;
+    display: flex;
+}
+
+
+
+.table_list{
+    line-height: 20px;
+    list-style-type: none;
+    padding-left: 30px;
+    width: 27%;
+}
+
+.table_list li{
+    
+    padding-top: 20px;
+    position: relative;
+    margin: 20px 0
+}
+
+.table_list li ::before{
+    content: " ";
+    position: absolute;
+    left: -30px;
+    top: 40%; /* Положение квадрата сверху (центрирование) */
+    transform: translateY(-70%);
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+
+}
+
+.left{        /*Left*/
+     width: 51%;
+     background-color: rgba(197, 197, 255, 0.315);
+     justify-content: center;
+     
+}
+
+.left h1{
+    text-align: center;
+    
+    width: 100%;
+    color: rgb(6, 6, 121);
+    font-size: 40px;
+}
+
+.info{               /*Info*/
+    
+    background-color: rgba(31, 82, 194, 0.87);
+    height: auto;
+    line-height: 25px;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.info p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.containr_info{
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 19px;
+    width: 40%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.containr_info h1{
+    color: white;
+    text-align: center;
+}
+
+
+.foto {              /*Foto*/
+
+    background-image: url(Foto/2.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.container_foto{
+    width: 100%;
+    height: 600px;
+}
+
+.Yuriist{                       /*Yurists*/
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.Yuriist h1{
+    color: rgb(4, 4, 104);
+    font-size: 25px;
+}
+
+.container_yurist{
+    justify-content: center;
+
+    display: flex;
+}
+
+
+.The_yurists{
+    padding: 20px;
+
+}
+
+.The_yurists h2{
+    color: rgb(50, 50, 170);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.The_yurists h3{
+    color: rgba(93, 93, 204, 0.836);
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.The_yurists p{
+    color: rgb(0, 140, 255);
+}
+
+.The_yurists a{
+    text-decoration: none;
+    color: rgb(5, 5, 99);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+
+.AdressBack{            /*AdressBack*/
+    width: 100%;
+    height: 600px;
+    background-size:cover ;
+   background-image: url(Foto/Stro.avif);
+   background-repeat: no-repeat;
+}
+
+.back_foto{
+    background-color: rgba(74, 74, 163, 0.658);
+    width: 100%;
+    height: 600px;
+}
+
+.navbar{
+    margin-top: 30px;
+    display: flex;
+}
+
+.left_adr{
+    display: flex;
+    width: 40%;
+    justify-content: right;
+    padding-right: 20px;
+    background-color: rgba(43, 43, 109, 0.301);
+    height: 600px;
+    color: white;
+}
+
+.left_adr h1{
+    font-size: 40px;
+    display: block;
+}
+
+.left_adr h2{
+    font-size: 35px;
+    display: block;
+}
+
+
+.right_adr{
+    padding-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.right_adr h2{
+    font-size: 30px;
+}
+
+.right_adr a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_teb{
+    display: flex;
+    
+}
+
+.table input{
+    height: 30px;
+    box-shadow: none;
+    width: 250px;  
+    margin: 5px;
+}
+
+.texter textarea{
+    margin: 5px;
+    width: 250px;
+    height: 120px;
+}
+button{
+    display: block;
+    margin-left: 50%;
+    width: 130px;
+    height: 30px;
+    background-color: rgba(19, 150, 150, 0.979);
+    color: white;    
+    cursor: pointer;
+    transition: all .5s ease;
+    box-shadow: none;
+}
+
+button:hover{
+    background-color: rgb(12, 63, 66);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header { /* Header */
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 10;
+}
+
+header .main_con {
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header .main_con img {
+    padding-top: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+.main_con a {
+    display: flex;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    list-style-type: none;
+    padding-bottom: 0;
+    margin-right: 50px;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links li a {
+    opacity: .7;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.links li a:hover {
+    opacity: 1;
+    color: rgb(16, 165, 165);
+}
+
+
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 10;
+}
+
+header .main_con {
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header .main_con img {
+    padding-top: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+.main_con a {
+    display: flex;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    list-style-type: none;
+    padding-bottom: 0;
+    margin-right: 50px;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links li a {
+    opacity: .7;
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.links li a:hover {
+    opacity: 1;
+    color: rgb(16, 165, 165);
+}
+
+
+
+
+
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+   transition: all .5s;
+   will-change: transform;
+}
+
+
+.burger span:nth-child(1){
+    transform: translateY(-5px);
+}
+
+.burger span:nth-child(2){
+    
+}
+
+.burger span:nth-child(3){
+    transform: translateY(5px);
+}
+
+/* Krestik*/
+
+.header.open .burger span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+}
+
+.header.open .burger span:nth-child(2){
+    opacity: 0;
+}
+
+.header.open .burger span:nth-child(3){
+    
+    transform: translateY(0) rotate(-45deg);
+}
+
+
+@media (max-width: 1100px) {
+    .head_container {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        width: 100%;
+        background-color: rgb(253, 253, 253);
+        display: none;
+        flex-direction: column;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+       
+    }
+   
+
+    .links li {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .links li a {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .header.open .head_container{
+        transform: translateX(-100%);
+    }
+
+
+
+    
+    .under_header .blu_block{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+   
+
+
+}
+
+.head_container.active {
+    display: flex;
+}
+
+@media (max-width: 450px) {
+
+
+
+     section .main{ /* Main content*/
+        width: 100%;
+        height: auto;
+    }
+    
+    .main_container{
+        display: block;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .right{            /* Right*/
+    padding-top: -40px;
+        width: 90%;
+        color: rgb(16, 125, 133);
+        justify-content: left;
+        padding: 10px;
+        display: block;
+    }
+    
+    
+    
+    .table_list{
+        line-height: 20px;
+        list-style-type: none;
+        padding-left: 30px;
+        width: 80%;
+    }
+    
+    .table_list li{
+        font-size: 17px;
+        line-height: 25px;
+        padding-top: 20px;
+        position: relative;
+        margin: 20px 0
+    }
+    
+    .table_list li ::before{
+        content: " ";
+        position: absolute;
+        left: -30px;
+        top: 40%; /* Положение квадрата сверху (центрирование) */
+        transform: translateY(-70%);
+        width: 15px;
+        height: 15px;
+        background-color: aqua;
+    
+    }
+    
+    .left{        /*Left*/
+         width: 100%;
+         background-color: rgba(197, 197, 255, 0.315);
+         justify-content: center;
+         
+    }
+    
+    .left h1{
+        text-align: center;
+        width: 100%;
+        color: rgb(6, 6, 121);
+        font-size: 40px;
+        padding-bottom: -40px;
+    }
+    
+
+
+
+    .info{               /*Info*/
+        
+        background-color: rgba(31, 82, 194, 0.87);
+        height: auto;
+        line-height: 25px;
+       justify-content: center;
+        display: flex;
+       
+    }
+    
+    .info p{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .containr_info{
+        color: rgba(255, 255, 255, 0.767);
+        font-size: 19px;
+        width: 100%;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    
+    .containr_info h1{
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+    .Yuriist{                       /*Yurists*/
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+    }
+    
+    .Yuriist h1{
+        color: rgb(4, 4, 104);
+        font-size: 25px;
+    }
+    
+    .container_yurist{
+        justify-content: center;
+    
+        display: block;
+    }
+    
+    
+    .The_yurists{
+        padding: 20px;
+    
+    }
+    
+    .The_yurists h2{
+        color: rgb(50, 50, 170);
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .The_yurists h3{
+        color: rgba(93, 93, 204, 0.836);
+        font-size: 18px;
+        font-weight: 250;
+    }
+    
+    .The_yurists p{
+        color: rgb(0, 140, 255);
+    }
+    
+    .The_yurists a{
+        text-decoration: none;
+        color: rgb(5, 5, 99);
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+    .AdressBack{            /*AdressBack*/
+        width: 100%;
+        height: auto;
+        background-size:cover ;
+       background-image: url(Foto/Stro.avif);
+       background-repeat: no-repeat;
+       padding-bottom: 20px;
+    }
+    
+    .back_foto{
+        background-color: rgba(74, 74, 163, 0.658);
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar{
+        margin-top: 30px;
+        display: block;
+    }
+    
+    .left_adr{
+        display: block;
+        width: 100%;
+        justify-content: right;
+        background-color: rgba(43, 43, 109, 0.301);
+        height: auto;
+        color: white;
+    }
+    
+    .left_adr h1{
+        font-size: 40px;
+        display: block;
+    }
+    
+    .left_adr h2{
+        font-size: 35px;
+        display: block;
+    }
+    
+    
+    .right_adr{
+       
+        margin-top: 40px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .right_adr h2{
+        font-size: 30px;
+    }
+    
+    .right_adr a{
+        text-decoration: none;
+        color: white;
+        padding-top: 10px;
+    }
+    
+    .right_adr p{
+        padding: 10px;
+    }
+
+    .table{
+        display: block;
+        flex-direction: column;
+    }
+    
+    .container_teb{
+        display: block;
+        
+    }
+    
+    .table input{
+        height: 30px;
+        box-shadow: none;
+        width: 250px;  
+        margin: 5px;
+    }
+    
+    .texter textarea{
+        margin: 5px;
+        width: 250px;
+        height: 120px;
+    }
+    button{
+        display: block;
+        margin-left: 0;
+        width: 130px;
+        height: 30px;
+        background-color: rgba(19, 150, 150, 0.979);
+        color: white;    
+        cursor: pointer;
+        transition: all .5s ease;
+        box-shadow: none;
+    }
+    
+    button:hover{
+        background-color: rgb(12, 63, 66);
+    }
+    
+    
+
+
+
+
+    
+                /* Under_Header*/
+   
+       
+    .under_header{
+        display: flex;
+        height: 629px;
+        align-items: center;
+    }
+
+    
+   .under_header .blu_block{   
+       
+    
+        margin: 10%;
+        background-color: rgba(0, 0, 255, 0.486);
+        color: white;
+        width: 80%;
+        height: 60%;
+        justify-content: center;
+       
+        align-items: center;
+
+    }
+    
+    .blu_block h1{
+        padding-left: 20px;
+        margin: 0;
+        padding-top: 30%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .blu_block p{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding: 20px;
+        margin: 0;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+
+    *{
+                box-sizing: border-box;
+    }
+  
+    
+
+ }
+
+
+
+    @media (max-width:375px){
+
+       .open{
+            height: 75px;
+        }
+    }
+    
